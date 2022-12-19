@@ -1,5 +1,5 @@
-
-public class Funcionario {
+//nao pode instanciar porque a classe é abstrada
+public abstract class Funcionario {
 	
 
 	
@@ -8,10 +8,8 @@ public class Funcionario {
 	private double salario;
 	
 	
-	
-	public double getBonificacao() {
-		return this.salario * 0.05;
-	}
+	//método sem corpo não  ha implementação
+	public abstract double getBonificacao();
 	
 	public String getNome() {
 		return nome;
